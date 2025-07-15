@@ -61,7 +61,7 @@ public class PDFExtractor {
         Sheet sheet = workbook.createSheet("Extracted Data");
 
         // Custom headers
-        String[] headers = {"BLDG ID", "Amount", "Current", "1st Month", "2nd Month",
+        String[] headers = {"BLDG ID", "Monthly Base rent", "Monthly cost recovery", "Monthly other income", "2nd Month",
                 "3rd Month", "4th Month"};
 
         // Write header row
