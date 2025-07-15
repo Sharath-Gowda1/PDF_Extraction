@@ -138,6 +138,6 @@ public class CM_Rent_ROll {
         try (FileOutputStream out = new FileOutputStream(outputPath)) {
             workbook.write(out);
         }
-        workbook.close(); //close workbook to release resources
+        workbook.close();
     }
 }
