@@ -65,7 +65,7 @@ public class PDFToExcel {
             System.out.println("Data extracted and written to Excel successfully.");
 
         } catch (IOException e) {
-            e.printStackTrace(); // tesing
+            e.printStackTrace();
         }
     }
 }
